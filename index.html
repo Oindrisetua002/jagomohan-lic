@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIC Agent - Policy Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fffbe6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 60px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #ffcc00;
+      color: #003366;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #003366;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .policy {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+    .policy h2 {
+      margin-top: 0;
+      color: #003366;
+    }
+    .contact-form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background-color: #ffcc00;
+      color: #003366;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #003366;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="lic-logo.png" alt="LIC Logo" />
+    <h1>Life Insurance Corporation Agent</h1>
+    <p>View Available Policies and Plans</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#policies">Policies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="policies">
+    <div class="policy">
+      <h2>Jeevan Anand Plan</h2>
+      <p>Combination of endowment and whole life policy. Provides life cover even after maturity.</p>
+    </div>
+
+    <div class="policy">
+      <h2>New Endowment Plan</h2>
+      <p>Provides financial support for the family of the deceased policyholder any time before maturity and a lump sum amount at maturity.</p>
+    </div>
+
+    <div class="policy">
+      <h2>Jeevan Labh</h2>
+      <p>Limited premium paying endowment plan offering good returns and bonus benefits.</p>
+    </div>
+
+    <div class="policy">
+      <h2>Jeevan Umang</h2>
+      <p>Lifetime cover with annual survival benefits and lump sum payment at maturity.</p>
+    </div>
+  </div>
+
+  <div class="container contact-form" id="contact">
+    <h2>Contact LIC Agent Jagomohan Setua</h2>
+    <p>Location: Jhargram | Phone: 9932953130 | Email: jsetua72@gmail.com</p>
+    <form action="mailto:jsetua72@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required /> 
+           <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScA81AfuVa0JkxHQu2Q9psRRxCWBKHLkJuIZ5wtmMZDdwXVxA/viewform?embedded=true" width="640" height="686" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+    <p>&copy; 2025 LIC Agent Jagomohan Setua | Designed with ❤️ in Jhargram</p>
+  </footer>
+</body>
+</html>
